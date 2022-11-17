@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: cadetblue;
+}
+.app_div .item_detail {
+  width: 30%;
+  height: 70vh;
+  background-color: rgb(243, 235, 240);
+  border-radius: 10px;
+  position: relative;
+  border: 2px solid #000;
+}
+h1 {
+  font-size: 50px;
+  padding: 6px 0 2px 0;
+  text-align: center;
+}
+input {
+  text-align: center;
+  min-height: 40px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 10px 70px;
+  background-color: orange;
+}
+.add_button {
+  min-height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 30px;
+  background-color: orange;
+  margin-top: 10px;
+  position: absolute;
+  right: 5%;
+}
+.item_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+li {
+  padding-left: 20px;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.item_list .fa-times {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+  color: #fff;
+}
+.edit_item {
+  width: 20%;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 30px;
+  background-color: orange;
+  margin-top: 30px;
+  position: absolute;
+  right: 5%;
+}
+.todo_input {
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 5px;
+  border: 1px solid #000;
+  background-color: rgb(125, 120, 120);
+  border-radius: 0;
+  text-transform: uppercase;
+}
+.empty_state {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 600;
+  color: #000;
+}
