@@ -85,14 +85,13 @@ li {
   right: 5%;
 }
 .todo_input {
-  padding: 0;
   margin: 0;
-  margin-left: 20px;
   margin-top: 5px;
   border: 1px solid #000;
   background-color: rgb(125, 120, 120);
   border-radius: 0;
   text-transform: uppercase;
+  max-width: 80%;
 }
 .empty_state {
   font-size: 25px;
